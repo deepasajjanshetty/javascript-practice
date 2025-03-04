@@ -1,0 +1,21 @@
+let value = 6;
+let negValue = -value;
+console.log(value);
+console.log(negValue);
+console.log(2+2);
+console.log(2-2);
+console.log(2*2);
+console.log(3**2);
+console.log(2/2);
+console.log(2%2);
+console.log(2+"2");
+console.log("2"+2);
+console.log("2"+2+2);
+console.log(2+2+"2");
+
+let str1 = "Hello";
+let str2 = "deepu";
+let str3 = (str1 +" "+ str2);
+let str4 = str1 + str2;
+console.log(str3);
+console.log(str4);
