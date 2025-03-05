@@ -41,9 +41,11 @@ console.log(typeof bigNumber);
 
 
 const jamurry = ["deepli","supli","Nurli"];
-const murry {
-   iddd=5,
-   name="chabi",
+
+
+const murry = {
+   iddd: 5,
+   nameOf: "chabi",
 }
 const Myfunction = function(){
     console.log("Hello World");
