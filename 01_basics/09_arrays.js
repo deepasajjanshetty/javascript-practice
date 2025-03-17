@@ -32,3 +32,30 @@ console.log("B", myArr);
 const myn2 = myArr.splice(1,3)// starting from index 1 to 3 last range also take and its take from orignial array and added here 
 console.log("C", myArr); // removed array list element if i take splice
 console.log(myn2);
+
+const thinks = ["car", "carrom", "socket", "engine", "bulb", "regulator"]
+const product = ["Choclate", "cream", "pasta"]
+//thinks.push(product)
+//console.log(thinks)
+
+const allProducts = thinks.concat(product)
+console.log(allProducts)
+
+
+const all_new_product = [...thinks, ...product]  // spread operator
+console.log(all_new_product)
+
+const anotherArray = [1, 2, 3, [4, 5, 6], 7, [6, 7, [4, 5]]]
+
+const real_anotherArray = anotherArray.flat(Infinity)
+console.log(real_anotherArray)
+
+console.log(Array.isArray("Deepu"))
+console.log(Array.from("Deepu"))
+console.log(Array.from({name: "Deepa"})) // it will give you blank array you have to tell that u have to create by keys
+
+let score1 = 100
+let score2 = 200
+let score3 = 300
+
+console.log(Array.of(score1, score2, score3));
